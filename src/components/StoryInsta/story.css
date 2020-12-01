@@ -1,0 +1,53 @@
+.storyContainer{
+   
+    color: #9a9999;
+    
+    
+}
+.img1{
+    width: 165px;
+    height:80px;
+    position: relative;
+    top: -86px;
+    left:30px;
+    z-index: -5;
+}
+
+.img2{
+    
+    width: 80px;
+    height: 76px;
+    border-radius: 100px;
+    border: 4px solid white;
+    
+   }
+
+   .storyContainer p{
+     
+       font-size: 12px;
+       margin-top:-90px;
+       padding-left: 20px;
+   }
+   .storyContainer span{
+    color: #414040;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 807px) {
+    .img1{
+        width: 90px;
+    }
+     p{
+     
+        font-size: 5vw;
+     }
+   
+   }
+
+   @media only screen and (min-width: 1400px) {
+    .img1{
+        width: 80%;
+    }
+     
+   
+   }

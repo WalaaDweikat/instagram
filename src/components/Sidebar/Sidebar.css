@@ -1,0 +1,31 @@
+.containerside{
+    display:flex;
+    flex-direction: column;
+    width:245px;
+    box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 775px;
+}
+
+.instaLogo
+{
+    width: fit-content;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 46px;
+    margin-bottom: 60px;
+
+}
+
+.items{
+    margin-left: 40px;
+    margin-bottom: 23px;
+}
+ .items span{
+     padding-left: 25px;
+     padding-top: -15px;
+     color: #9a9999;
+     font-size: 17px;
+ }
+
+
+
